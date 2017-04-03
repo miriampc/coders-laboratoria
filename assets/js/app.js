@@ -4,7 +4,7 @@ window.addEventListener('load',function(){
   datosCoder.coders.forEach(function(e,id){
     var image=document.createElement('img');
     image.setAttribute("id","coder"+id);
-    image.classList.add("class","img-coder "+e.promocion);
+    image.setAttribute("class","img-coder "+e.promocion);
     image.src=e.img;
     codersContainer.appendChild(image);
   });

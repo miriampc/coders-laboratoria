@@ -1,3 +1,10 @@
+*{
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+header{
+  text-align: center;
+}
+
 .img-coder{
   display: inline-block;
   width:auto;
