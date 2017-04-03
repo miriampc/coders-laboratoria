@@ -1,10 +1,10 @@
 window.addEventListener('load',function(){
   var codersContainer=document.getElementById('coders');
   var datosCoder=new Coders(allCoder);
-  datosCoder.coders.forEach(function addCoders(e,id){
+  datosCoder.coders.forEach(function(e,id){
     var image=document.createElement('img');
     image.setAttribute("id","coder"+id);
-    image.setAttribute("class","img-coder "+e.promocion);
+    image.classList.add("class","img-coder "+e.promocion);
     image.src=e.img;
     codersContainer.appendChild(image);
   });
