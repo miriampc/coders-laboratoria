@@ -3,7 +3,7 @@ window.addEventListener('load',function(){
   var datosCoder=new Coders(allCoder);
 
   //ejm para añadir coder
-  //datosCoder.addCoders("sexta", "assets/images/rosario-felix.jpg","Peru");
+  //datosCoder.addCoders("sexta", "assets/images/6-lima/rosario-felix.jpg","Peru");
 
   datosCoder.coders.forEach(function(e,id){
     var image=document.createElement('img');

@@ -6,7 +6,8 @@ function Coders(coders){
       img:image,
       pais:pais});
   };
-  this.delete=function(id){
+  //Metodo a implementar a futuro
+  this.deleteCoders=function(id){
     this.coders.splice(id,1);
   };
 }
