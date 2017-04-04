@@ -11,3 +11,7 @@ header{
   margin: 10px;
   border-radius: 5px;
 }
+select{
+  margin-left: 45%;
+  margin-bottom: 2%;
+}

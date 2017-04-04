@@ -3,7 +3,10 @@ function Coders(coders){
   this.addCoders=function(promo,image,pais){
     this.coders.push({
       promocion:promo,
-      imagen:image,
+      img:image,
       pais:pais});
-  }
+  };
+  this.delete=function(id){
+    this.coders.splice(id,1);
+  };
 }
